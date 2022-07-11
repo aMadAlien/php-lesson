@@ -47,5 +47,14 @@
 
     <?php echo $_GET["name"];?>
 
+    <!-- POST VS GET -->
+    <form action="lesson2.php" method="post">
+        Password: <input type="password" name="password">
+        <br>
+        <input type="submit">
+    </form>
+    <br>
+
+    <?php echo $_POST["password"];?>
 </body>
 </html>
